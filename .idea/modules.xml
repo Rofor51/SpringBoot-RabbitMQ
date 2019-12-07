@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/room-cleaner-clr/room-cleaner-clr.iml" filepath="$PROJECT_DIR$/room-cleaner-clr/room-cleaner-clr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/room-cleaner-consumer/room-cleaner-consumer.iml" filepath="$PROJECT_DIR$/room-cleaner-consumer/room-cleaner-consumer.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Ex_Files_Spring_Boot_EssT/Exercise Files/Chapter 2/02_04/02_04_Begin/room-web-app/room-web-app.iml" filepath="$USER_HOME$/Downloads/Ex_Files_Spring_Boot_EssT/Exercise Files/Chapter 2/02_04/02_04_Begin/room-web-app/room-web-app.iml" />
+    </modules>
+  </component>
+</project>

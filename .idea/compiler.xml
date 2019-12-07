@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="room-cleaner-clr" />
+        <module name="room-cleaner-consumer" />
+        <module name="room-clra-pp" />
+        <module name="room-web-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="room-cleaner-clr" target="1.8" />
+      <module name="room-cleaner-consumer" target="1.8" />
+      <module name="room-clra-pp" target="1.8" />
+      <module name="room-web-app" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
