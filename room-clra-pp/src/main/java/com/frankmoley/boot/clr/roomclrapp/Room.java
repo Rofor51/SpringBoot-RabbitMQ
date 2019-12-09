@@ -1,9 +1,20 @@
-package com.frankmoley.boot.clr.roomclrapp;
+package com.frankmoley.boot.landon.roomwebapp;
 
+import javax.persistence.*;
+import java.lang.annotation.Target;
+
+@Entity
+@Table(name = "ROOM")
 public class Room {
+    @Id
+    @Column(name = "ROOM_ID")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+    @Column(name = "NAME")
     private String name;
+    @Column(name = "ROOM_NUMBER")
     private String number;
+    @Column(name = "BED_INFO")
     private String info;
 
     public Room() {
@@ -48,15 +59,5 @@ public class Room {
 
     public void setInfo(String info) {
         this.info = info;
-    }
-
-    @Override
-    public String toString() {
-        return "Room{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", number='" + number + '\'' +
-                ", info='" + info + '\'' +
-                '}';
     }
 }
