@@ -1,0 +1,3 @@
+[submodule "my-shell"]
+    path = my-shell
+    url = https://github.com/Rofor51/my-shell.git
